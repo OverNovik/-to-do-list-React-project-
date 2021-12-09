@@ -1,0 +1,46 @@
+.cross-out {
+  text-decoration: line-through;
+  text-decoration-color: #000;
+}
+
+.todo-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.8rem;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin: 0.8rem 0 0.8rem 0;
+  &__check {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0.1rem 0 0 1.2rem;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+  }
+  &__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #373737;
+    margin-left: 0.8rem;
+    letter-spacing: 0.015rem;
+  }
+}
+
+.todo-item__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7.6rem;
+  height: 2rem;
+  margin-right: 1rem;
+  & button {
+    height: 100%;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+}
