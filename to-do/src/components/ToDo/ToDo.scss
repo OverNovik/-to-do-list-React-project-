@@ -27,6 +27,10 @@
     color: #373737;
     margin-left: 0.8rem;
     letter-spacing: 0.015rem;
+    &__inp {
+      height: 100%;
+      width: 80%;
+    }
   }
 }
 
@@ -43,4 +47,8 @@
     border: none;
     cursor: pointer;
   }
+}
+
+@media (max-width: 50rem) {
+  
 }

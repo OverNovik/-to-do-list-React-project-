@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 2.4rem 0 0 2.4rem;
+    padding: 7.9rem 0 0 7.9rem;
   }
   &-task__add {
     display: flex;
@@ -50,5 +50,10 @@
       width: 100%;
       height: 50%;
     }
+  }
+  .layout-task__complete {
+    margin-left: 0;
+    width: 54.6%;
+    height: 50%;
   }
 }
