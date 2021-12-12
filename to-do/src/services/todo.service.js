@@ -45,7 +45,7 @@ class ToDoService {
       method: 'DELETE',
     });
     const data = await response.json()
-    console.log(data)
+    return data
   }
 }
 

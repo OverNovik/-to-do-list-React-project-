@@ -15,7 +15,6 @@ function ToDo({todo, toggleTask, removeTask, updateTask}) {
 
   const handleEdit = () => {
     setEdit(true)
-    console.log(isEdit)
   }
 
   const handleSaveChanges = (e) => {
@@ -44,7 +43,7 @@ function ToDo({todo, toggleTask, removeTask, updateTask}) {
           type='checkbox' 
           className='todo-item__check' 
           onClick={() => toggleTask(todo)}
-          checked={todo.completed}
+          defaultChecked={todo.completed}
         />
         {isEdit ? <input value={title} onKeyDown={(e) => handleSaveChanges(e)} onChange={handleChange} className='todo-item__text__inp'/> : <span className='todo-item__text'>{title}</span>}
       </div>
