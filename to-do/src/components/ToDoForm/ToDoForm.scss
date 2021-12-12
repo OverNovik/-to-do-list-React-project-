@@ -1,0 +1,47 @@
+.todo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  &-text__inp, &-sub__btn {
+    height: 100%;
+  }
+  &-text__inp {
+    width: 117rem;
+    flex-grow: 1;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+    padding-left: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.013rem;
+    &::placeholder {
+      padding-left: 1.2rem;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      letter-spacing: 0.013rem;
+      color: #CACACA;
+    }
+  }
+  &-sub__btn {
+    background: #550DC9;
+    border-radius: 4px;
+    color: #ffffff;
+    width: 5rem;
+    height: 100%;
+    border: none;
+    margin-left: 0.8rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 50rem) {
+  .todo-text__inp {
+    width: 41rem;
+  }
+}
+
+
+
+
+
